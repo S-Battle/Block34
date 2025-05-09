@@ -1,0 +1,67 @@
+.openScope{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+  
+}
+.basicControlsView{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center; 
+  width: 45vw;
+  height: 90vh;
+}
+.basicControlsButtons{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.basicControlsInputs{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.viewerView{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overscroll-behavior: contain;
+  justify-content: scroll;
+  border: black 2px solid;
+  border-radius: 2rem;
+  width: 45vw;
+  align-content: center;
+  align-Items: center; 
+  height: 90vh;
+  
+}
+.selectedInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 50%;
+}
+.selectedInfo>div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.selectedInfo>div div{
+  width: 20%;
+}
+nav{
+  display: flex;
+  font-size: 1.4rem;
+  gap:2rem;
+}
